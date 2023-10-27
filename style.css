@@ -1,0 +1,158 @@
+.navdiv>div>h3{
+    color: var(--13183F, #13183F);
+    font-family: plus jarkata sans;
+    font-weight: 800;
+  
+
+}
+.navdiv>button{
+    border-radius: 28px;
+background: var(--666CA3, #666CA3);
+border: 0;
+width: 167px;
+height: 56px;
+}
+
+.tabimg, .mobimg{
+    display: none;
+}
+
+.ptext{
+    font-size: 19px;
+    font-family: plus jarkata sans;
+    font-weight: 500;
+    color: #83869A;
+}
+
+.phead{
+    font-size: 56px;
+    font-family: plus jarkata sans;
+    font-weight: 800;
+    color: #13183F;
+}
+.deskimg{
+    margin-left: 30%;
+    margin-top: -21%;
+}
+.pbtn{
+    border-radius: 31.5px;
+    
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border: 0;
+    width: 167px;
+    height: 63px;
+    flex-shrink: 0;
+}
+
+.pcol{
+    border-radius: 15px;
+background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+height: 85%;
+}
+.colsection>h4{
+    color: #13183F;
+    font-family: plus jakarta sans;
+    font-weight: 800;
+}
+.colsection>p{
+    font-family: plus jakarta sans;
+    font-weight: 500;
+    color: #83869A;
+}
+.gt{
+    color: #f74780 !important;
+    font-weight: 700;
+}
+.colsection{
+    width: 30%;
+    background-color: #FFF;
+}
+.sct{
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+}
+footer{
+    background-color: #13183F;
+    font-family: plus jakarta sans;
+}
+.fbtn{
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border: 0;
+    font-size: 14px;
+}
+
+
+/* MEDIA QUERIES FOR TABLETS */
+@media screen and (max-width:991px){
+    .navdiv>button{
+        border-radius: 28px;
+        background: var(--13183F, #13183F);
+    }
+   
+    .navdiv>button{
+        width: 140px;
+        height: 48px;
+        width: 147px;
+        height: 40px;
+    }
+       
+    
+    
+    
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .deskimg{
+        display: none;
+    }
+    .mobimg{
+        display: none;
+    }
+    .tabimg{
+        display: inline-block;
+        margin-left: 24%;
+        margin-top: -23%;
+    }
+    .ptext{
+        font-size: 20px;
+    }
+    .phead{
+        font-size: 40px;
+    }
+    .colsection{
+        width: 40%;
+    }
+
+}
+
+
+
+/* MEDIA QUERIES FOR MOBILE */
+@media screen and (max-width:767px){
+    .deskimg{
+        display: none;
+    }
+    .tabimg{
+        display: none;
+    }
+    .mobimg{
+        display: block;
+    }
+    .phead{
+        font-size: 40px;
+    }
+  .ptext{
+    font-size: 25px ;
+  }
+  .pbtn{
+   
+    
+    width: 125px;
+    height: 43px;
+    flex-shrink: 0;
+}
+.colsection{
+    width: 100%;
+}
+}
+   
+
